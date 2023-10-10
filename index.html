@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Incluye los archivos CSS y JS de Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+6i5k5F5DMlFkzJz5fus5u5k3DD6u5vF5foC5o5u5E5vF5foC5o5u5E5vF5foC5o5u5E5vF5foC5o5u5E5/sF5foC5o5u5E5vF5foC5o5u5E5g=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Catinicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Gatitos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Razas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Quiero ser una Karen
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Formulario de adopción</a></li>
+                            <li><a class="dropdown-item" href="#">¿Qué necesito para adoptar?</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">¿Cómo puedo ser una buena Karen?</a></li>
+                        </ul>
+                    </li>
+                    <!-- Nueva opción "Opciones" para pantallas MD o más pequeñas -->
+                    <li class="nav-item d-md-none"> <!-- Esto oculta el elemento en pantallas MD o más grandes -->
+                        <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#optionsCollapse" aria-expanded="false">Opciones</a>
+                        <div id="optionsCollapse" class="collapse">
+                            <ul class="list-group">
+                                <li class="list-group-item">Opción 1</li>
+                                <li class="list-group-item">Opción 2</li>
+                                <li class="list-group-item">Opción 3</li>
+                                <li class="list-group-item">Opción 4</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Busca tu gatito ideal</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 col-lg-3 d-none d-md-block"> <!-- Esto muestra la columna en pantallas MD o más grandes -->
+                <ul class="list-group">
+                    <li class="list-group-item">Opción 1</li>
+                    <li class="list-group-item">Opción 2</li>
+                    <li class="list-group-item">Opción 3</li>
+                    <li class="list-group-item">Opción 4</li>
+                </ul>
+            </div>
+            <div class="col-md-9 col-lg-9">
+                <h1 class="text-center">Tener un gatito</h1>
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p class="text-center">"Tener un gatito es como vivir con un ninja en casa. Siempre está acechando en las sombras y de repente ¡BAM! Ataca tus pies cuando menos te lo esperas."</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="text-center">"Tener un gatito es como tener un entrenador personal las 24 horas. Te despiertan temprano para jugar y te miran con desdén cuando prefieres una siesta en lugar de hacer ejercicio."</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="text-center">"Tener un gatito es como ser parte de una producción de Broadway. Sus actuaciones de caza de insectos son dignas de un Oscar, pero su interés por tus zapatos es un drama en constante evolución."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Siames</h2>
+                <p>El siamés es una raza de gato. Dentro de dicha raza se distinguen dos variedades: por un lado el siamés moderno, y por otro el siamés tradicional o Thai.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Persa</h2>
+                <p>El persa es una raza de gato caracterizada por tener una cara ancha y plana y un gran abundante pelaje de variados colores. Son considerados comúnmente como gatos aristocráticos.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Gatito Sin Casa</h2>
+                <p>Darle un hogar a un gatito callejero es mucho más que simplemente ofrecer refugio. Es un acto de compasión que puede cambiar vidas, tanto la del gatito como la tuya propia. Estos felinos han enfrentado situaciones difíciles en las calles, luchando por sobrevivir en un mundo que a menudo les es hostil. Al abrir las puertas de tu casa y tu corazón a un gatito callejero, le brindas la oportunidad de una vida mejor.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Cambiar de forma automática el carrusel cada 2 segundos
+        $(document).ready(function() {
+            $('#myCarousel').carousel({
+                interval: 2000
+            });
+        });
+    </script>
+</body>
+</html>
